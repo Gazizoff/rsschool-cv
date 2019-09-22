@@ -96,3 +96,59 @@ header {
     background-image: url(./assets/iconvk.jpg);
     background-position: center;
 }
+
+.main {
+    display: flex;
+    justify-content: left;    
+    height: 570px;    
+    margin: 40px;    
+}
+
+.left {       
+    width: 300px;
+    text-align: center;
+    color: #e0a80d;
+}
+
+.left p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-right: 1px solid rgb(179, 183, 184);  
+    border-bottom: 1px solid rgb(179, 183, 184);
+}
+
+.left p:last-child {
+    border-bottom: none;
+}
+
+.right {
+    width: 600px;
+    padding-left: 30px;
+    text-align: justify;
+    color: #a4a5a6;
+}
+
+.right ul {
+    padding-top: 40px;    
+    padding-bottom: 35px;
+    list-style-type: square;
+    list-style-position: inside;            
+}
+
+.experience a {
+    text-decoration: none;
+    color: #188853;
+}
+
+.experience a:hover {
+    color: #63cdf1;
+}
+.experience p {
+    font-size: 14px;
+    color: #5b5c5c;
+}
+
+.education {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
