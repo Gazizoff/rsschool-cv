@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Lato";
+    src: url('./assets/fonts/Lato-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato", "Arial", sans-serif;
+    background: #2b2c2c;
+}
+
+body {
+    position: relative;
+    width: 1020px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #2d2e2e;
+} 
+
+header {
+    height: 100%;
+    border-bottom: 1px solid rgb(179, 183, 184);
+}
+
+.avatar {
+    position: relative;
+    left: 10%;
+    top: 20px;
+    display: inline-block;
+    width: 165px;
+    height: 165px; 
+    border: 2px solid #a4a5a6;
+    border-radius: 20%;
+    background-image: url(./assets/myperson.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30%;  
+}
+
+.name {
+    position: relative;
+    left: 53.6%;
+    transform: translateX(-100%);
+    display: inline-block;
+    width: 400px;
+    margin: 40px;
+    padding-left: 20px;
+    border-left: 1px solid rgb(179, 183, 184);       
+}
+
+.name h2 {
+    color: #a4a5a6;
+}
+
+.name h1 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #e0a80d;
+    font-size: 45px;
+}
+
+.name h3 {
+   color: #5b5c5c;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;   
+    bottom: 0; 
+}
+
+.icons a {
+    height: 24px;
+    width: 24px;
+    margin-bottom: 10px;
+    border: 2px solid #a4a5a6;
+    border-radius: 20%;
+    background-image: url(./assets/iconfacebook.jpg);
+    opacity: 0.5;
+}
+.icons a:hover {
+    opacity: 1;
+}
+
+.icons a + a {
+    height: 24px;
+    width: 24px;
+    border: 2px solid #a4a5a6;
+    border-radius: 20%;
+    background-image: url(./assets/iconvk.jpg);
+    background-position: center;
+}
