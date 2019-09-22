@@ -13,7 +13,7 @@ I quickly absorb new knowledge and try to put it into practice.
 
 5. Code example: `<h5>Hello World!!!!</h5>`.
 
-6. Experience: [link to github](https://github.com/Gazizoff);[link to project](https://gazizoff.github.io/rsschool-2019Q1-youtube/).
+6. Experience: [link to github](https://github.com/Gazizoff); [link to my project](https://gazizoff.github.io/rsschool-2019Q1-youtube/).
 
 7. I graduated from BNTU (2013) and the magistracy (2018),  
 at the moment I am studying on Rolling Scopes School courses.
