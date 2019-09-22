@@ -1,1 +1,1 @@
-# rsschool-cv
+Summary: https://gazizoff.github.io/rsschool-cv/cv
